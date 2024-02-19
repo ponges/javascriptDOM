@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+        
+*     {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(
+    #0f2027,
+    #203a43, 
+    #2c5364);
+    height: 150vh;
+    font-family: 'Lato', sans-serif;
+    border: solid 15px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+
+}
+
+#main-heading {
+    border: solid 5px #fff;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    border: solid 5px #fff;
+    border-radius: 20px;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+
+.list-items {
+    border: solid 5px #fff;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.list-items li {
+    margin-bottom: 10px;
+    border: solid 2px #fff;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.container div{
+    border: solid 5px #fff;
+    border-radius: 20px;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.container div button{
+    border: solid 5px #fff;
+    border-radius: 20px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.container div h1{
+    font-size: 2rem;
+}
+
+.hidden-content{
+    display: none;
+}
+
+.hidden-content.reveal-btn{
+    display: block;
+}
+
+.reveal-btn{
+    border: solid 5px #fff;
+    border-radius: 20px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+div{
+    border: solid 5px #fff;
+    border-radius: 20px;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    align-items: center;
+
+}
+
+.button{
+    font-size: 30px;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 3px #fff;
+    background: none;
+    color: #fff;
+    display: block;
+
+}
+
+#sports {
+    border: solid 5px #fff;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+#sports li {
+    margin-bottom: 10px;
+    border: solid 2px #fff;
+    padding: 5px;
+    cursor: pointer;
+
+}
